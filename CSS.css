@@ -1,0 +1,276 @@
+
+.sector-1 {
+    background-image: url(Картинки/фон.jpg);
+    height: 900px;
+    background-position: center bottom;
+    text-align: center;
+    color: white;
+}
+.logo-1 {
+    margin-top: 80px;
+    margin-bottom: 160px;
+}
+h0 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    font-variant: small-caps;
+    line-height: 87px;
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 57px;
+    margin: 0px;
+    padding: 0px;
+}
+h2 {
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+.social-1 {
+    margin-top: 220px;
+}
+.button-1 {
+    background-image: none;
+    border: none;
+    background: transparent;
+    color: white;
+    height: 100px;
+    margin-top: 50px;
+}
+.button-strelka {
+    color:#fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 30px 18px;
+}
+.button-strelka:hover {
+    background-color: #a9a32a;
+}
+.sector-2 {
+    display: grid;
+    grid-template-areas: "title title"
+                         "left-top right-top";
+    grid-template-columns: 1fr 1fr;   
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    column-gap: 50px;
+    background-color: #e5e5e5;
+}
+.offers {
+    grid-area: title;
+    color: #868585;
+    padding-bottom: 30px;
+}
+.left-top {
+    grid-area: left-top;
+    height: 400px;
+}
+.right-top-1 {
+    grid-area: right-top;
+    height: 400px;
+}
+.title-2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #030303;
+}
+.paragraph {
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 100;
+    color:#030303;
+}
+.img-feelds {
+    width: 470px;
+}
+.title-1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.sector-3 {
+    display: grid;
+    grid-template-areas: "offer offer offer"
+                         "var var right-top"
+                         "img-1 exp-1 img-2"
+                         "exp-2 exp-3 img-2";
+    column-gap: 30px; 
+    row-gap: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    grid-template-columns: 1fr 1fr 2fr;
+    background-color:#e5e5e5;
+}
+.green-offer {
+    grid-area: offer;
+    color: #868585;
+    padding-bottom: 30px;
+    line-height: 1.2;
+}
+.var {
+    grid-area: var;
+}
+.img-1 {
+    grid-area: img-1;
+}
+.explanation-1 {
+    grid-area: exp-1;
+}
+.explanation-2 {
+    grid-area: exp-2;
+}
+.explanation-3 {
+    grid-area: exp-3;
+}
+.right-top-2 {
+    grid-area: right-top;
+}
+.right-bottom {
+    grid-area: img-2;
+}
+.varaity {
+    display: inline;
+    padding-right: 30px;
+}
+.right-img {
+    width: 470px;
+}
+.arrows {
+    padding-top: 35px;
+}
+.arrow-left:hover {
+    border: 2px solid;
+    border-color:#a9a32a
+}
+.arrow-right:hover {
+    border: 2px solid;
+    border-color:#a9a32a
+}
+.arrow-left,.arrow-right {
+    padding: 5px;
+}
+.sector-4 {
+    background-image: url(Картинки/Rectangle\ 10.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+.middle-title {
+    padding-top: 90px;
+    text-align: center;
+    color:#fff;
+}
+.sector-5 {
+    display: grid;
+    grid-template-areas: "tit tit"
+                         "left-img rig-par"
+                         "left-par rig-img";
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px; 
+    row-gap: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color:#e5e5e5;
+}
+.clients {
+    grid-area: tit;
+}
+.left-img-top {
+    grid-area: left-img;
+}
+.right-top-paragraph {
+    grid-area: rig-par;
+}
+.left-bottom-paragraph {
+    grid-area: left-par;
+}
+.right-bottom-img {
+    grid-area: rig-img;
+}
+.img-11 {
+    width: 450px;
+}
+.img-12 {
+    height: 600px;
+}
+.numbers {
+    color: #868585;
+    margin-bottom: 4px;
+}
+.steps {
+    margin-bottom: 5px;
+}
+.black {
+    color:#030303;
+}
+.black-border {
+    border-color:#030303; 
+}
+.sector-6 {
+    background-image: url(Картинки/Rectangle\ 13.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    display: grid;
+    grid-template-areas: "left1 right1"
+                         "down down";
+    padding-top: 80px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 80px;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 100px;
+    column-gap: 40px;
+}
+.left-side {
+    grid-area: left1;
+}
+.right-side {
+    grid-area: right1;
+}
+.left-down {
+    grid-area: down;
+}
+.center-down {
+    grid-area: down;
+    margin-left:auto;
+    margin-right: auto;
+}
+.right-down {
+    grid-area: down;
+    margin-left:auto;
+}
+.white-text {
+    color: white;
+}
+.form {
+    display: block;
+    color: white;
+    background-image: none;
+    background-color: transparent;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 2px #fff solid;
+    padding: 10px;
+    width: 450px;
+}
+.numbers-contacts {
+    padding-top: 18px;
+}
